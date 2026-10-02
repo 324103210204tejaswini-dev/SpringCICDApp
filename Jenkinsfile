@@ -14,14 +14,14 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building Spring Boot application...'
-                bat 'mvn clean package -DskipTests'
+                bat 'mvnd clean package -DskipTests'
             }
         }
 
         stage('Test') {
             steps {
                 echo 'Running unit tests...'
-                bat 'mvn test'
+                bat 'mvnd test'
             }
         }
 
