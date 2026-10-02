@@ -1,4 +1,4 @@
-# Created at 2026-10-02T18:10:12.251
+# Created at 2026-10-02T18:29:57.026
 Boot Manifest-JAR contains absolute paths in classpath 'D:\SpringCICDApp\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root

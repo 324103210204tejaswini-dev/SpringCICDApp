@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/")
     public String home() {
-        return "Hello! Spring Boot CI/CD Pipeline is working!";
+        return "Hello! CI/CD Pipeline Updated Successfully!";
     }
 
     @GetMapping("/status")
