@@ -25,6 +25,12 @@ pipeline {
             }
         }
 
+        stage('Check Docker') {
+            steps {
+                bat 'docker --version'
+                bat 'docker info'
+            }
+        }
         stage('Docker Build') {
             steps {
                 echo 'Building Docker image...'
